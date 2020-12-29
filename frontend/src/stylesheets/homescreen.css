@@ -1,0 +1,17 @@
+body{
+    background-image: none;
+    background-color: rgb(247, 250, 252);
+}
+.header{
+    margin-top:'0px' ;
+}
+
+.searchBar{
+    margin-top: '20px';
+}
+
+.blogs{
+    background-color: rgb(69, 89, 107);
+    width: '100px';
+    height: '100px';
+}

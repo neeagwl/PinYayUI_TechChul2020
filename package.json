@@ -1,0 +1,24 @@
+{
+  "name": "pinyay",
+  "version": "1.0.0",
+  "description": "\"# PinYayUI_TechChul2020\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeagwl/PinYayUI_TechChul2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neeagwl/PinYayUI_TechChul2020/issues"
+  },
+  "homepage": "https://github.com/neeagwl/PinYayUI_TechChul2020#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "react-bootstrap": "^1.4.0",
+    "react-router-dom": "^5.2.0"
+  }
+}

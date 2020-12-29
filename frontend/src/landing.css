@@ -1,0 +1,26 @@
+body{
+    background-image: url('./assets/bg.jpg');
+    /* background-color: rgb(151, 188, 221); */
+}
+
+h1{
+    text-align: center;
+    margin-top:300px;
+    font-size: 50px;
+    color: rgb(217, 220, 223);
+}
+h3{
+    text-align: center;
+    color: rgb(217, 220, 223);
+}
+h2{
+    text-align: right;
+    font-size: 30px;
+    color: rgb(217, 220, 223);
+}
+
+i{
+    margin-top:200px ;
+    font-size: 70px;
+    color:rgb(209, 206, 38);
+}
