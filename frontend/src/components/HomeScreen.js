@@ -156,7 +156,9 @@ const HomeScreen = () => {
                 </Container>
                 <div style={styles.blogStyle}>
                   <h3 className="py-3" style={styles.h3Style} >BLOGS</h3>
-                  <p>Write your blogs here.</p>
+                  <p>Write your blogs here.
+                      <br/>
+                  </p>
                   <i style={styles.like} class="fas fa-heart">Like</i>
                   <i style={styles.share} class="fas fa-share-square">Share</i>
                   <i style={styles.i} class="fas fa-feather">Write a Blog</i>

@@ -8,8 +8,8 @@ import AddPin from './components/AddPin';
 const App = () => {
     return (
         <Router>
-          <Route path='/' component={Landing} exact/>
-          <Route path='/home' component={HomeScreen}/>
+          <Route path='/' component={Landing}  exact/>
+          <Route path='/home' component={HomeScreen} />
           <Route path='/pin' component={Pin}/>
           <Route path="/addPin" component={AddPin}/>
         </Router>
