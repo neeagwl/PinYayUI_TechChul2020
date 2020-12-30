@@ -55,6 +55,24 @@ const AddPin = () => {
                         placeholder="Type Yes or no."
                     ></Form.Control>
                 </Form.Group>
+                <Form.Group >
+                    <Form.Label>
+                        Pin Color
+                    </Form.Label>
+                    <Form.Control
+                        type="text"
+                        placeholder="Select your pin color!"
+                    ></Form.Control>
+                </Form.Group>
+                <Form.Group >
+                    <Form.Label>
+                        Social Media Links
+                    </Form.Label>
+                    <Form.Control
+                        type="text"
+                        placeholder="Link social media"
+                    ></Form.Control>
+                </Form.Group>
                 <Button type="submit" variant="primary">Add Pin</Button>
             </Form>
         </Col>

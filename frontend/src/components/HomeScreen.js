@@ -31,14 +31,14 @@ const HomeScreen = () => {
             marginLeft:"86px"
         },
         i:{
-            marginTop:'60px',
+            marginTop:'10px',
             marginLeft:'750px'
         },
         like:{
-            marginTop:'60px'
+            marginTop:'10px'
         },
         share:{
-            marginTop:"60px",
+            marginTop:"10px",
             marginLeft:"20px"
         },
         mapBox:{
@@ -113,15 +113,15 @@ const HomeScreen = () => {
                         <Col style={styles.map} sm={12} md={8}>
                             <Row>
                                 <Col>
-                                    <Link to='/pin'><i style={styles.pinStyle.first} class="fas fa-map-marker-alt"><h6>MyArt</h6></i></Link>
+                                    <Link to='/pin'><i style={styles.pinStyle.first} class="fas fa-map-marker-alt"><h6>MyCafe</h6></i></Link>
                                 </Col>
                                 <Col>
-                                <Link to='/pin'><i style={styles.pinStyle.second} class="fas fa-map-marker-alt"><h6>MyArt</h6></i></Link>
+                                <Link to='/pin'><i style={styles.pinStyle.second} class="fas fa-map-marker-alt"><h6>MyTravel</h6></i></Link>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                <Link to='/pin'><i style={styles.pinStyle.third} class="fas fa-map-marker-alt"><h6>MyArt</h6></i></Link>
+                                <Link to='/pin'><i style={styles.pinStyle.third} class="fas fa-map-marker-alt"><h6>DanceDil</h6></i></Link>
                                 </Col>
                                 <Col>
                                 <Link to='/pin'><i style={styles.pinStyle.fourth} class="fas fa-map-marker-alt"><h6>MyArt</h6></i></Link>
@@ -136,7 +136,7 @@ const HomeScreen = () => {
                             <ListGroup.Item variant="success">Museums</ListGroup.Item>
                             <ListGroup.Item variant="info">Travel</ListGroup.Item>
                             <ListGroup.Item variant="warning">Art</ListGroup.Item>
-                            <ListGroup.Item variant="dark">Dark</ListGroup.Item>
+                            <ListGroup.Item variant="dark">Dance</ListGroup.Item>
                         </ListGroup>
                         </Col>
                     </Row>
@@ -158,6 +158,9 @@ const HomeScreen = () => {
                   <h3 className="py-3" style={styles.h3Style} >BLOGS</h3>
                   <p>Write your blogs here.
                       <br/>
+                      Share your work, culture, art, knowldege with beautiful words to the people. 
+                      <br/>Connect with people. 
+                     <b>Liked a blog? Visit that PIN!</b> 
                   </p>
                   <i style={styles.like} class="fas fa-heart">Like</i>
                   <i style={styles.share} class="fas fa-share-square">Share</i>

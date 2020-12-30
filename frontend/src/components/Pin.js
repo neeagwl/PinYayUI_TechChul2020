@@ -26,8 +26,9 @@ const Pin = () => {
   <ListGroup className="list-group-flush font-weight-bold">
     <ListGroupItem><strong>ADD AS FRIEND</strong></ListGroupItem>
     <ListGroupItem><b>REVIEWS</b></ListGroupItem>
-    <ListGroupItem><b>PHOTOS</b></ListGroupItem>
+    <ListGroupItem><b>ADD TO FAVOURITES</b></ListGroupItem>
     <ListGroupItem><b>SUPPORT</b></ListGroupItem>
+    <ListGroupItem><b>RECOMMEND TO A FRIEND</b></ListGroupItem>
   </ListGroup>
   <Card.Body>
     <Card.Link href="#" style={{color:"blue"}}>GMap Link</Card.Link>
